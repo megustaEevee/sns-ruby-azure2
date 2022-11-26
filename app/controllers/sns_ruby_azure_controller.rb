@@ -1,0 +1,3 @@
+class SnsRubyAzureController < ApplicationController
+  
+end

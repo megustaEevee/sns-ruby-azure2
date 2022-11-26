@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  root to: "sns_ruby_azure#index"
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :works, only: [:index, :show, :create] do
+    resources :wages, only: [:show, :create]
+    resource :comments, only: :create
+  end
+
 end

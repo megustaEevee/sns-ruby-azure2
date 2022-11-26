@@ -1,0 +1,2 @@
+module SnsRubyAzureHelper
+end

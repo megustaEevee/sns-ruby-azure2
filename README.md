@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# テーブル設計
 
-Things you may want to cover:
+## users テーブル
+
+| Column     | Type   | Options     |
+| ---------- | ------ | ----------- |
+| email      | string | null: false |
+| password   | string | null: false |
+
+
 
 * Ruby version 2.7.3
 
-* System dependencies
+* rails 7.0.4
 
-* Configuration
+* rbenv 1.2.0
 
-* Database creation
+* homebrew 3.6.11
 
-* Database initialization
+* Git 2.38.1
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* macOS venture 13.0.1
